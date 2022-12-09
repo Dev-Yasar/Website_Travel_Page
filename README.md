@@ -1,7 +1,7 @@
 # Travel Page
  [Live DEMO]()
  
-## Mobile Look
+## Desktop Look
 ![page1](https://user-images.githubusercontent.com/68767718/206639609-93462842-8702-4f9f-93af-e214ad09aa2e.PNG)
 
 ## Mobile Look
