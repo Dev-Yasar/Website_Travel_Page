@@ -1,0 +1,179 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100&display=swap'); 
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', serif;
+}
+a{
+    color: white;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(3, 20, 26);
+}
+
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Assets/bg.jpg);
+    background-size: cover;
+    /* background-clip: content-box; */
+}
+.mainTitle{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.mainContainer h1{
+    position: absolute;
+    margin-top: 200px;
+    color: white;
+    font-family: serif;
+    font-size: 70px;
+    font-weight:lighter;
+
+}
+.mainContainer h1 span{
+    display: block;
+    font-family: serif;
+}
+.socialLinks{
+    position: absolute;
+    margin-top: 100px;
+    width: 100px;
+    height: 120px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.socialLinks p {
+    font-weight: bold;
+    margin-bottom: 30px;
+    transform: rotate(90deg);
+
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards{
+    width: 80%;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    margin-left: 100px
+}
+.typogarpy{
+    width: 60%;
+}
+.line{
+    background-color: #ffe96e;
+    width: 50px;
+    height: 1px;
+    margin-right: 10px;
+}
+.FirstP{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #ffe96e;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.typogarpy h1{
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 40px;
+}
+.typogarpy p{
+    width: 80%;
+    text-transform: capitalize;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.LastP{
+  color: #ffe96e;
+    height: 30px;
+    width: 140px;
+   text-transform: lowercase;
+   display: flex;
+   font-size: 13px;
+
+}
+
+.fa-arrow-right{
+    margin-left: 20px;
+}
+.CardImg{
+    margin-right: 50px;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    background-position: center;
+
+
+}
+.Imgtravel{
+    width: 100%;
+    height: auto;
+    
+}
+footer{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+/* ===== footer====== */
+.container2{
+    width: 80%;
+    display: flex;
+     justify-content: space-between;
+}
+.brandLinks{
+    width: 290px;
+    /* height: 300px; */
+    color: white;
+    margin-top: 20px;
+   
+}
+.brandLinks h1{
+    font-family: serif;
+}
+.para{
+    margin-top: 20px;
+    font-size: 13px;
+}
+.footer2{
+    display: flex;
+}
+.footer2 ul{
+    list-style: none;
+    margin: 20px;
+    text-transform:capitalize;
+}
+.MainLink{
+    color: #ffe96e;
+    text-transform:capitalize;
+    font-size: 15px;
+}
+.subLinks{
+    font-size: 13px;
+    color: #f1f1f1;
+    margin: 10px;
+}
+
+.cpR{
+    font-size: 11px;
+    color: #ffffff5d;
+    margin-top: 70px;
+}
